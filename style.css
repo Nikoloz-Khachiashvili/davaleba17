@@ -107,6 +107,7 @@ main{
 
 .drop-down-title-1:hover,.drop-down-title-2:hover,.drop-down-title-3:hover,.drop-down-title-4:hover,.drop-down-title-5:hover{
     color: #F47B56;
+    cursor: pointer;
 }
 
 .bold{
@@ -116,6 +117,7 @@ main{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    cursor: pointer;
 }
 
 .show{
@@ -123,6 +125,11 @@ main{
 }
 
 .turn{
-    transform: rotate(180deg);
+    transform: rotate(-180deg);
     transition: 1s;
+}
+
+
+.header-image-des,.header-image-des-shadow,.header-image-des-outline-1,.header-image-des-outline-2,.box{
+    display: none;
 }
